@@ -1,95 +1,93 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+      <h1>Саляхов Марат</h1>
+      <h2>Backend-разработчик</h2>
+      <p>Телефон: +7 (937) 930-02-05</p>
+      <p>Email: mrt47@yandex.ru</p>
+      <p>TG: @mumble_1</p>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      <h3>Опыт работы:</h3>
+
+      <h4>iSpring, Йошкар-Ола, летняя практика</h4>
+      <p>июль 2023</p>
+      <p>Стек: Symfony (backend)</p>
+      <p>Задачи:</p>
+      <ul>
+        <li>
+          Внести изменения в проект внутренней системы столовой компании для обеспечения возможности отслеживания БЖУ в блюдах.
+        </li>
+        <li>
+          Внести изменения в проект внутренней системы столовой компании для обеспечения возможности отслеживания БЖУ в блюдах.
+        </li>
+      </ul>
+      <p>Результаты:</p>
+      <ul>
+        <li>
+          Реализовал необходимые изменения на backend`е системы столовой с использованием фреймворка Symfony, что позволило работникам получать информацию о содержании БЖУ в блюдах.
+        </li>
+        <li>
+          Получил практический опыт работы с фреймворком Symfony и применил свои знания для решения конкретной задачи.
+        </li>
+      </ul>
+
+      <h4>TravelLine, Йошкар-Ола, весенняя практика</h4>
+      <p>март 2024 - июнь 2024</p>
+      <p>Стек:</p>
+      <ul>
+        <li>C# (frontend);</li>
+        <li>React (backend).</li>
+      </ul>
+      <p>Задачи:</p>
+      <ul>
+        <li>Ознакомиться с основами разработки на C#, научиться базовым навыкам написания backend`а.</li>
+        <li>Изучить frontend-разработку на фреймворке React.</li>
+      </ul>
+      <p>Результаты:</p>
+      <ul>
+        <li>Реализовал программы, использующие ООП, на языке C#;</li>
+        <li>Изучил основы frontend`а с использованием фреймворка React и его библиотек.</li>
+      </ul>
+
+      <h3>Проекты:</h3>
+      
+      <h4>Разработка веб-приложения для блога – учебный проект</h4>
+      <p>Стек:</p>
+      <ul>
+        <li>HTML (frontend);</li>
+        <li>CSS (frontend);</li>
+        <li>JavaScript (frontend);</li>
+        <li>Golang (backend).</li>
+      </ul>
+      <p>Результаты:</p>
+      <ul>
+        <li>Разработал и внедрил рабочее веб-приложение для блога.</li>
+        <li>Обеспечил возможность публикации постов пользователями и редактирования постов администратором.</li>
+        <li>Продемонстрировал умение разрабатывать веб-приложения с использованием HTML, CSS, JavaScript и Golang.</li>
+      </ul>
+
+      <h4>Проект CardMaker – учебный проект, аналог Paint`а</h4>
+      <p>Стек: React (frontend).</p>
+      <p>Результаты:</p>
+      <ul>
+        <li>Разработал и внедрил рабочее приложение для создания карточек.</li>
+        <li>Обеспечил возможность пользователям добавлять текст, геометрические фигуры и картинки на карточки.</li>
+      </ul>
+
+      <h3>Образование:</h3>
+      <h4>ПГТУ, Йошкар-Ола, бакалавр</h4>
+      <p>сентябрь 2022 – настоящий момент времени</p>
+      <p>Специальность: Программная инженерия.</p>
+
+      <h3>Навыки:</h3>
+      <ul>
+        <li>ООП(C++, C#)</li>
+        <li>TypeScrypt, JavaScrypt, React, Vue.js</li>
+        <li>Работа с СУБД MSSQL, MySQL</li>
+        <li>PHP, Symfony</li>
+      </ul>
     </div>
   );
 }
